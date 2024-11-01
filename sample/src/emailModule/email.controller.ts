@@ -1,6 +1,6 @@
 import { Controller, Get, Param, Query, UseGuards } from '@nestjs/common';
 
-import { SignedUrlGuard, UrlGeneratorService } from 'nestjs-url-generator';
+import { SignedUrlGuard, UrlGeneratorService } from '@anthwal/nestjs-url-generator';
 import { AuthGuard } from './auth.guard';
 import { EmailParams } from './params/email.params';
 import { EmailQuery } from './query/email.query';

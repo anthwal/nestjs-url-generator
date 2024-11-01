@@ -2,7 +2,7 @@ import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config/dist/config.module';
 import { EmailModule } from './emailModule/email.module';
 import { urlGeneratorModuleConfig } from './config/signed-url.config';
-import { UrlGeneratorModule } from 'nestjs-url-generator';
+import { UrlGeneratorModule } from '@anthwal/nestjs-url-generator';
 
 @Module({
   imports: [

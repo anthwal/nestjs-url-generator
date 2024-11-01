@@ -1,4 +1,4 @@
-import { UrlGeneratorModuleOptions } from 'nestjs-url-generator';
+import { UrlGeneratorModuleOptions } from '@anthwal/nestjs-url-generator';
 
 export function urlGeneratorModuleConfig(): UrlGeneratorModuleOptions {
   return {
