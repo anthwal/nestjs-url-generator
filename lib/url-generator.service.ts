@@ -3,6 +3,7 @@ import { Inject, Injectable, Logger, ForbiddenException } from '@nestjs/common';
 
 import { UrlGeneratorModuleOptions } from './url-generator-options.interface';
 import { URL_GENERATOR_MODULE_OPTIONS } from './url-generator.constants';
+import { Buffer } from 'node:buffer';
 
 import {
   generateHmac,

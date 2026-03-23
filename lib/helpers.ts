@@ -1,4 +1,4 @@
-import { createHmac, timingSafeEqual } from 'crypto';
+import { createHmac, timingSafeEqual } from 'node:crypto';
 import { stringify as qsStringify } from 'qs';
 
 import { BadRequestException } from '@nestjs/common';
