@@ -22,7 +22,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "@anthwal/nestjs-url-generator": "file:anthwal-nestjs-url-generator-1.0.1.tgz",
+    "@anthwal/nestjs-url-generator": "file:anthwal-nestjs-url-generator-2.0.0.tgz",
     "@nestjs/common": "^11.1.12",
     "@nestjs/config": "^4.0.2",
     "@nestjs/core": "^11.1.12",
